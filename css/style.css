@@ -61,6 +61,10 @@ body {
     border: 2px dashed black;
 }
 
+.white-dashed {
+    border: 2px dashed white;
+}
+
 .p20 {
     padding: 20px;
 }
@@ -76,7 +80,6 @@ header {
 }
 
 .head-container {
-    width: 80%;
     background-color: orange;
     margin: 20px auto;
     font-weight: 600;
@@ -114,7 +117,6 @@ header {
 
 /* MAIN */
 section {
-    margin: 50px 0;
     padding: 50px 0;
     height: 400px;
 }
@@ -129,4 +131,49 @@ section:nth-child(5) {
 
 section:nth-child(5) .square{
     background-color: green;
+}
+
+section:last-child{
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.coral {
+    background-color: coral;
+}
+
+.col {
+    height: 100%;
+    flex-grow: 1;
+}
+
+footer {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.foot-container {
+    margin: 0 auto;
+    font-weight: 600;
+    background-color: aquamarine;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-content {
+    padding: 5px 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+footer a:hover {
+    color: pink;
+    background-color: black;
+    text-decoration: underline;
+    border: 2px dashed pink;
 }
