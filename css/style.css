@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Poppins";
+}
+
 /* Utility */
 .dotted {
     border-style: dotted;
@@ -15,6 +19,10 @@
 
 .bg-dark {
     background-color: rgb(44, 44, 44);
+}
+
+.magenta {
+    background-color: magenta;
 }
 
 .pink {
@@ -37,6 +45,10 @@
     width: 60%;
 }
 
+.w-80 {
+    width: 80%;
+}
+
 .h-400 {
     height: 400px;
 }
@@ -45,11 +57,20 @@
     display: flex;
 }
 
-/* Styles */
-body {
-    font-family: "Poppins";
+.dashed {
+    border: 2px dashed black;
 }
 
+.p20 {
+    padding: 20px;
+}
+
+.square {
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* HEADER */
 header {
     height: 100px;
 }
@@ -59,11 +80,6 @@ header {
     background-color: orange;
     margin: 20px auto;
     font-weight: 600;
-}
-
-.head-content {
-    border: 2px dashed black;
-    padding: 20px;
 }
 
 .head-small-col {
@@ -94,4 +110,15 @@ header {
 
 .head-content:last-child {
     text-align: right; /* Ho voluto provare in questo modo */
+}
+
+/* MAIN */
+section {
+    margin: 50px 0;
+    padding: 50px 0;
+    height: 400px;
+}
+
+section:first-child{
+    background-color: navy;
 }
