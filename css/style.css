@@ -41,6 +41,10 @@
     height: 400px;
 }
 
+.d-flex {
+    display: flex;
+}
+
 /* Styles */
 body {
     font-family: "Poppins";
@@ -48,4 +52,46 @@ body {
 
 header {
     height: 100px;
+}
+
+.head-container {
+    width: 80%;
+    background-color: orange;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+.head-content {
+    border: 2px dashed black;
+    padding: 20px;
+}
+
+.head-small-col {
+    width: 20%;
+}
+
+.head-big-col {
+    width: 60%;
+    text-align: center;
+}
+
+.menu-btn {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu-btn a {    
+    text-decoration: none;
+    color: black;
+    transition: .3s;
+}
+
+.menu-btn a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.head-content:last-child {
+    text-align: right; /* Ho voluto provare in questo modo */
 }
