@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Utility */
+.dotted {
+    border-style: dotted;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+.bg-dark {
+    background-color: rgb(44, 44, 44);
+}
+
+.pink {
+    background-color: pink;
+}
+
+.blue {
+    background-color: skyblue;
+}
+
+.dark-cyan {
+    background-color: darkcyan;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+/* Styles */
+body {
+    font-family: "Poppins";
+}
+
+header {
+    height: 100px;
+}
